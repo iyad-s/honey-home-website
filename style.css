@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background-color: #161515;
+  color: #ffffff;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+header nav {
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  gap: 10px;
+  display: flex;
+  font-weight: 700;
+}
+i {
+  color: orange;
+  font-size: 2rem;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+header a:hover {
+  color: orange;
+  border-bottom: rgb(255, 255, 255) 2px solid;
+}
+span {
+  font-size: 1.2rem;
+  color: orange;
+}
+main {
+  margin-top: 80px;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin-top: -150px;
+}
+.home img {
+  width: 600px;
+  height: 600px;
+}
+.home-text p {
+  font-size: 3.3rem;
+  color: #ffffff;
+  width: 400px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.home-text p span {
+  color: orange;
+  font-size: 3.3rem;
+}
+.menu {
+  padding: 7px;
+  font-weight: 500;
+  background-color: rgb(65, 63, 63);
+  border-radius: 20px;
+  color: orange;
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+}
+.menu i {
+  color: orange;
+  font-size: 1rem;
+}
+.learn {
+  font-weight: 500;
+  text-decoration: none;
+  color: orange;
+  border-bottom: orange 2px solid;
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  margin-top: -500px;
+}
+.call,
+.time,
+.location {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(46, 44, 44);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: orange 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.info p span {
+  color: gray;
+  font-size: 1rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -400px;
+  gap: 80px;
+  flex-direction: row-reverse;
+}
+.explore {
+  padding: 7px;
+  font-weight: 500;
+  background-color: rgb(65, 63, 63);
+  border-radius: 20px;
+  color: orange;
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+}
+.explore i {
+  color: orange;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.about-text p {
+  font-size: 1rem;
+  color: gray;
+  text-align: left;
+  width: 400px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about img {
+  width: 600px;
+  height: 600px;
+}
+.about-text h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: -50px;
+  margin-bottom: -120px;
+}
+.small {
+  color: orange;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shop img {
+  width: 150px;
+  height: 150px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.shop-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.lets {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 340px;
+  background-color: rgb(46, 44, 44);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+.honey {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.des {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 15px;
+}
+.price {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: orange;
+}
+.order {
+  padding: 7px;
+  font-weight: 500;
+  background-color: black;
+  border-radius: 20px;
+  color: orange;
+  text-decoration: none;
+  text-align: center;
+  width: 120px;
+  margin-top: 15px;
+  margin-bottom: -30px;
+  margin-left: 90px;
+}
+.shop a {
+  padding: 7px;
+  font-weight: 500;
+  background-color: rgb(65, 63, 63);
+  border-radius: 20px;
+  color: orange;
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+}
+.shop a i {
+  color: orange;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.customer-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.customer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(46, 44, 44);
+  border-radius: 40px;
+  width: 400px;
+  height: 200px;
+}
+.customer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  margin: 20px;
+}
+.customer-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.stars {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  color: orange;
+}
+.customer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.review {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: gray;
+  margin: 10px;
+}
+.customer {
+  margin-top: -150px;
+  margin-bottom: 150px;
+}
+.stars i {
+  color: orange;
+  font-size: 0.6rem;
+}
+.name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+}
+.name-spane {
+  color: gray;
+  font-size: 0.7rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -50px;
+}
+.contact-t {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+.contact-p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+  width: 950px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.contact-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.contact-social span i {
+  color: orange;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.contact-social i {
+  font-size: 1.5rem;
+  color: gray;
+}
+.contact-social i:hover {
+  color: orange;
+}
